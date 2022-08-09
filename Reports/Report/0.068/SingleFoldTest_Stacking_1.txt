@@ -1,0 +1,550 @@
+
+Test Phase Duration: 0:03:53 (HH:MM:SS)
+
+Class report: 
+              precision    recall  f1-score   support
+
+     alureon     0.3130    0.3916    0.3480       932
+     banjori     1.0000    1.0000    1.0000       932
+       bedep     0.5884    0.5891    0.5887       932
+    ccleaner     0.9978    0.9914    0.9946       932
+      chinad     0.9745    0.8616    0.9146       932
+     corebot     1.0000    0.9936    0.9968       932
+cryptolocker     0.4786    0.2876    0.3592       932
+    dircrypt     0.3079    0.1599    0.2105       932
+        dyre     1.0000    1.0000    1.0000       932
+   fobber_v1     0.7531    0.9850    0.8536       932
+   fobber_v2     0.3202    0.3573    0.3377       932
+    gozi_gpl     0.9332    0.9592    0.9460       932
+ gozi_luther     0.8105    0.8627    0.8358       932
+   gozi_nasa     0.7385    0.7940    0.7653       932
+gozi_rfc4343     0.7440    0.7017    0.7223       932
+   kraken_v1     0.8207    0.5697    0.6726       932
+   kraken_v2     0.5188    0.5193    0.5190       932
+       locky     0.4922    0.2725    0.3508       932
+      matsnu     0.9116    0.9624    0.9363       932
+  murofet_v1     0.9767    0.9903    0.9835       932
+  murofet_v2     0.8080    0.9753    0.8838       932
+  murofet_v3     1.0000    0.9936    0.9968       932
+      necurs     0.3627    0.4024    0.3815       932
+      nymaim     0.9315    0.8165    0.8702       932
+    padcrypt     0.9913    0.9818    0.9865       932
+        pizd     0.7991    0.7339    0.7651       932
+ proslikefan     0.4949    0.5182    0.5063       932
+      pushdo     0.8097    0.9313    0.8663       932
+      pykspa     0.2032    0.2060    0.2046       932
+pykspa_noise     0.3174    0.2564    0.2837       932
+      qadars     0.9132    0.8466    0.8786       932
+      qakbot     0.6887    0.3466    0.4611       932
+       ramdo     0.9481    1.0000    0.9734       932
+      ramnit     0.2968    0.2264    0.2568       932
+  ranbyus_v1     0.5699    0.7082    0.6316       932
+  ranbyus_v2     0.7993    0.4871    0.6053       932
+      rovnix     0.9106    0.8852    0.8977       932
+     shiotob     0.7871    0.7457    0.7658       932
+       simda     0.7154    0.9142    0.8026       932
+      sisron     0.9968    1.0000    0.9984       932
+  suppobox_1     0.7602    0.8777    0.8147       932
+  suppobox_2     0.8869    0.9678    0.9256       932
+  suppobox_3     0.9924    0.9850    0.9887       932
+       symmi     0.9947    1.0000    0.9973       932
+  tempedreve     0.3493    0.5172    0.4170       932
+       tinba     0.3367    0.5676    0.4227       932
+  vawtrak_v1     0.9925    1.0000    0.9963       932
+  vawtrak_v2     0.8093    0.7693    0.7888       932
+  vawtrak_v3     0.6594    0.9056    0.7631       932
+ zeus-newgoz     1.0000    0.9903    0.9951       932
+       legit     0.8184    0.6191    0.7049       932
+
+    accuracy                         0.7338     47532
+   macro avg     0.7377    0.7338    0.7287     47532
+weighted avg     0.7377    0.7338    0.7287     47532
+
+F1 Score, Precision and Recall: 
+              Macro   Micro
+F1 Score   0.728737  0.7338
+Precision  0.737709  0.7338
+Recall     0.733800  0.7338
+
+Overall accuracy = 0.7338003871076327
+
+Confusion matrix:
+              alureon  banjori  bedep  ccleaner  chinad  corebot  \
+alureon           365        0      0         0       0        0   
+banjori             0      932      0         0       0        0   
+bedep               0        0    549         0       0        0   
+ccleaner            0        0      0       924       0        0   
+chinad              0        0      5         1     803        0   
+corebot             0        0      0         0       0      926   
+cryptolocker        0        0     14         0       0        0   
+dircrypt           89        0    147         0       0        0   
+dyre                0        0      0         0       0        0   
+fobber_v1           0        0      0         0       0        0   
+fobber_v2         352        0      0         0       0        0   
+gozi_gpl            0        0      0         0       0        0   
+gozi_luther         0        0      0         0       0        0   
+gozi_nasa           0        0      0         0       0        0   
+gozi_rfc4343        0        0      1         0       0        0   
+kraken_v1           0        0      0         0       0        0   
+kraken_v2          72        0      0         0       0        0   
+locky               0        0      0         0       0        0   
+matsnu              0        0      0         0       0        0   
+murofet_v1          0        0      0         0       0        0   
+murofet_v2          0        0      0         0       0        0   
+murofet_v3          0        0      0         0       0        0   
+necurs              0        0      1         0       0        0   
+nymaim              0        0      0         0       0        0   
+padcrypt            0        0      5         0       0        0   
+pizd                0        0      0         0       0        0   
+proslikefan        31        0      0         0       0        0   
+pushdo              1        0      0         0       0        0   
+pykspa             17        0      0         0       0        0   
+pykspa_noise       24        0      0         0       0        0   
+qadars              0        0      4         1       0        0   
+qakbot             11        0     18         0       0        0   
+ramdo               0        0      0         0       0        0   
+ramnit             97        0     92         0       0        0   
+ranbyus_v1          0        0     14         0       0        0   
+ranbyus_v2          0        0     33         0       0        0   
+rovnix              0        0      0         0       0        0   
+shiotob             8        0     46         0      17        0   
+simda               3        0      0         0       0        0   
+sisron              0        0      0         0       0        0   
+suppobox_1          0        0      0         0       0        0   
+suppobox_2          0        0      0         0       0        0   
+suppobox_3          0        0      0         0       0        0   
+symmi               0        0      0         0       0        0   
+tempedreve         89        0      0         0       0        0   
+tinba               3        0      3         0       0        0   
+vawtrak_v1          0        0      0         0       0        0   
+vawtrak_v2          2        0      0         0       0        0   
+vawtrak_v3          0        0      0         0       0        0   
+zeus-newgoz         0        0      0         0       4        0   
+legit               2        0      1         0       0        0   
+
+              cryptolocker  dircrypt  dyre  fobber_v1  fobber_v2  gozi_gpl  \
+alureon                  0         5     0          0        326         0   
+banjori                  0         0     0          0          0         0   
+bedep                    0       121     0          0          0         0   
+ccleaner                 0         0     0          0          0         0   
+chinad                   2         0     0          6          0         0   
+corebot                  0         0     0          2          0         0   
+cryptolocker           268        11     0         43          0         3   
+dircrypt                 4       149     0          0         82         0   
+dyre                     0         0   932          0          0         0   
+fobber_v1                2         0     0        918          0         0   
+fobber_v2                0         7     0          0        333         0   
+gozi_gpl                 0         0     0          0          0       894   
+gozi_luther              0         0     0          0          0         0   
+gozi_nasa                0         0     0          0          0         0   
+gozi_rfc4343             0         0     0          0          0         0   
+kraken_v1                0         0     0          0          0         0   
+kraken_v2                2        15     0          0         50         0   
+locky                   48         0     0          0          0         3   
+matsnu                   0         0     0          0          0         0   
+murofet_v1               0         0     0          0          0         3   
+murofet_v2              11         0     0          0          0         0   
+murofet_v3               0         0     0          0          0         0   
+necurs                   9         2     0         12          3         1   
+nymaim                   0         0     0          0          0        18   
+padcrypt                 0         0     0          1          0         0   
+pizd                     0         0     0          0          0         0   
+proslikefan              1         0     0          0         22         0   
+pushdo                   0         0     0          0          3         0   
+pykspa                  28         2     0          0         18         0   
+pykspa_noise            16         6     0          0         18         0   
+qadars                   0         1     0          0          0         0   
+qakbot                  72        16     0         77         10         0   
+ramdo                    0         0     0          0          0         0   
+ramnit                   3        92     0          0        103         0   
+ranbyus_v1              61        10     0         26          0         1   
+ranbyus_v2               7         9     0        115          0         0   
+rovnix                   0         0     0          0          0        32   
+shiotob                  3         3     0         19          9         0   
+simda                    0         0     0          0          3         0   
+sisron                   0         0     0          0          0         0   
+suppobox_1               0         0     0          0          0         0   
+suppobox_2               0         0     0          0          0         0   
+suppobox_3               0         0     0          0          0         0   
+symmi                    0         0     0          0          0         0   
+tempedreve               0         2     0          0         52         0   
+tinba                   23        33     0          0          5         0   
+vawtrak_v1               0         0     0          0          0         0   
+vawtrak_v2               0         0     0          0          0         0   
+vawtrak_v3               0         0     0          0          0         0   
+zeus-newgoz              0         0     0          0          0         0   
+legit                    0         0     0          0          3         3   
+
+              gozi_luther  gozi_nasa  gozi_rfc4343  kraken_v1  kraken_v2  \
+alureon                 0          0             0          0          6   
+banjori                 0          0             0          0          0   
+bedep                   1          1             0          0          1   
+ccleaner                0          0             0          0          0   
+chinad                  0          0             0          0          0   
+corebot                 0          0             0          0          0   
+cryptolocker            0          0             0          1          1   
+dircrypt               10          2             2          0          6   
+dyre                    0          0             0          0          0   
+fobber_v1               0          0             0          0          0   
+fobber_v2               0          0             0          0          6   
+gozi_gpl                0          0             0          0          0   
+gozi_luther           804         42            58          0          0   
+gozi_nasa              62        740            97          0          0   
+gozi_rfc4343           83        159           654          0          0   
+kraken_v1               0          0             0        531        368   
+kraken_v2               0          0             0        108        484   
+locky                   0          0             0          0          5   
+matsnu                  6          9             8          0          0   
+murofet_v1              0          0             0          0          0   
+murofet_v2              0          0             0          0          0   
+murofet_v3              0          0             0          0          0   
+necurs                  0          0             0          0         13   
+nymaim                  2          2            11          0          0   
+padcrypt                1          0             1          0          0   
+pizd                    0          0             0          0          0   
+proslikefan             0          0             0          0          3   
+pushdo                  4          0             2          0          0   
+pykspa                  0          0             0          0         11   
+pykspa_noise            0          0             0          0          5   
+qadars                  0          0             0          0          2   
+qakbot                  1          0             0          2          3   
+ramdo                   0          0             0          0          0   
+ramnit                 11          1             0          2          2   
+ranbyus_v1              0          0             0          0          6   
+ranbyus_v2              1          0             1          0          0   
+rovnix                  4         38            32          0          0   
+shiotob                 0          0             0          0          0   
+simda                   0          0             0          0          0   
+sisron                  0          0             0          0          0   
+suppobox_1              0          0             0          0          0   
+suppobox_2              0          0             0          0          0   
+suppobox_3              0          0             0          0          0   
+symmi                   0          0             0          0          0   
+tempedreve              0          0             0          1          0   
+tinba                   0          0             0          2          9   
+vawtrak_v1              0          0             0          0          0   
+vawtrak_v2              0          0             0          0          0   
+vawtrak_v3              0          0             1          0          0   
+zeus-newgoz             0          0             0          0          0   
+legit                   2          8            12          0          2   
+
+              locky  matsnu  murofet_v1  murofet_v2  murofet_v3  necurs  \
+alureon           0       1           0           0           0       0   
+banjori           0       0           0           0           0       0   
+bedep             0       0           0           0           0       1   
+ccleaner          0       0           0           0           0       0   
+chinad            2       0           0           2           0      10   
+corebot           0       0           0           0           0       0   
+cryptolocker     54       0           0          93           0      89   
+dircrypt          0       0           0           0           0       3   
+dyre              0       0           0           0           0       0   
+fobber_v1         0       0           0           0           0       5   
+fobber_v2         0       0           0           0           0       0   
+gozi_gpl          0       0           0           0           0       0   
+gozi_luther       0      14           0           0           0       0   
+gozi_nasa         0      13           0           0           0       0   
+gozi_rfc4343      0      10           0           0           0       1   
+kraken_v1         4       0           0           0           0       0   
+kraken_v2         7       0           0           0           0      24   
+locky           254       0           2          37           0     158   
+matsnu            0     897           0           0           0       0   
+murofet_v1        0       0         923           0           0       4   
+murofet_v2        1       0           0         909           0       0   
+murofet_v3        0       0           6           0         926       0   
+necurs           29       0          14           6           0     375   
+nymaim            0      23           0           0           0       1   
+padcrypt          0       0           0           0           0       2   
+pizd              0       0           0           0           0       0   
+proslikefan      18       0           0           1           0      38   
+pushdo            0       6           0           0           0       0   
+pykspa            3       0           0           0           0       2   
+pykspa_noise      5       0           0           0           0       9   
+qadars            0       0           0           0           0       0   
+qakbot           31       0           0          59           0      35   
+ramdo             0       0           0           0           0       0   
+ramnit            0       0           0           0           0       4   
+ranbyus_v1       20       0           0           0           0      31   
+ranbyus_v2        7       0           0           0           0     173   
+rovnix            0       0           0           0           0       0   
+shiotob           0       0           0           0           0       0   
+simda             2       0           0           0           0       7   
+sisron            0       0           0           0           0       0   
+suppobox_1        0       0           0           0           0       0   
+suppobox_2        0       0           0           0           0       0   
+suppobox_3        0       0           0           0           0       0   
+symmi             0       0           0           0           0       0   
+tempedreve        2       0           0           0           0       2   
+tinba            75       0           0          18           0      60   
+vawtrak_v1        0       0           0           0           0       0   
+vawtrak_v2        0       1           0           0           0       0   
+vawtrak_v3        0       0           0           0           0       0   
+zeus-newgoz       0       0           0           0           0       0   
+legit             2      19           0           0           0       0   
+
+              nymaim  padcrypt  pizd  proslikefan  pushdo  pykspa  \
+alureon            0         0     0            0       7      26   
+banjori            0         0     0            0       0       0   
+bedep              0         0     0            0      11       0   
+ccleaner           0         3     0            0       0       0   
+chinad             0         0     0            0       0       0   
+corebot            0         0     0            0       0       0   
+cryptolocker       0         1     2            0      10      15   
+dircrypt           0         0     0            2      15       8   
+dyre               0         0     0            0       0       0   
+fobber_v1          0         0     0            0       0       2   
+fobber_v2          0         0     0            0      23      16   
+gozi_gpl           3         0     0            0       0       0   
+gozi_luther        0         0     0            0       3       0   
+gozi_nasa          1         0     0            0       4       0   
+gozi_rfc4343       0         0     0            0       1       0   
+kraken_v1          0         0     0           11       1       9   
+kraken_v2          2         0     0           30       6      30   
+locky              5         0     0          107       7      20   
+matsnu             0         0     0            0       0       0   
+murofet_v1         0         0     0            0       0       0   
+murofet_v2         0         0     0            0       0       0   
+murofet_v3         0         0     0            0       0       0   
+necurs             1         0     0          122      11       5   
+nymaim           761         0    23            5       4       0   
+padcrypt           0       915     1            0       0       0   
+pizd               0         0   684            0       0       0   
+proslikefan        1         0     0          483       1      89   
+pushdo             4         1     0            0     868       4   
+pykspa             0         0     0           73       8     192   
+pykspa_noise       3         0     2           55      10     235   
+qadars             0         0     1            0       2       8   
+qakbot             0         1     0           37       1      31   
+ramdo              0         0     0            0       0       0   
+ramnit             0         0     0            2      26      28   
+ranbyus_v1         5         0     1            0       7       4   
+ranbyus_v2         0         2     0            0       2       0   
+rovnix             0         0     0            0       0       0   
+shiotob            0         0     2            0       3      18   
+simda              3         0     0            6       4      35   
+sisron             0         0     0            0       0       0   
+suppobox_1         0         0   110            0       0       0   
+suppobox_2         0         0    20            0       0       0   
+suppobox_3         0         0     2            0       0       0   
+symmi              0         0     0            0       0       0   
+tempedreve         0         0     0           16       5     147   
+tinba              2         0     1            0      12      15   
+vawtrak_v1         0         0     0            0       0       0   
+vawtrak_v2         0         0     0            0       6       2   
+vawtrak_v3         0         0     0            0       6       0   
+zeus-newgoz        0         0     0            0       0       0   
+legit             26         0     7           27       8       6   
+
+              pykspa_noise  qadars  qakbot  ramdo  ramnit  ranbyus_v1  \
+alureon                  0       0       0      0       6           0   
+banjori                  0       0       0      0       0           0   
+bedep                    0       0       8      0     113           5   
+ccleaner                 0       0       0      0       0           0   
+chinad                   0       7      13      0       0           0   
+corebot                  0       0       0      0       0           0   
+cryptolocker            18       0       7      5      35          94   
+dircrypt                 0       0      62      0     154           7   
+dyre                     0       0       0      0       0           0   
+fobber_v1                0       0       0      0       0           0   
+fobber_v2                0       0       0      0       5           0   
+gozi_gpl                 0       0       0      0       0           0   
+gozi_luther              0       0       0      0       2           0   
+gozi_nasa                0       0       0      0       0           0   
+gozi_rfc4343             0       0       2      0       3           0   
+kraken_v1                0       0       0      0       0           1   
+kraken_v2                0       0       0      6       4           3   
+locky                   10       0       4      3       0         108   
+matsnu                   0       0       0      0       0           0   
+murofet_v1               0       0       0      0       0           0   
+murofet_v2               0       0       0      0       0           0   
+murofet_v3               0       0       0      0       0           0   
+necurs                   5       0      17      2       2         134   
+nymaim                   2       0       0      0       0           0   
+padcrypt                 0       0       0      0       0           2   
+pizd                     0       0       0      0       0           0   
+proslikefan             70       0       0      0       0          11   
+pushdo                   0       0       0      0       0           0   
+pykspa                 217       0      10      6       9           6   
+pykspa_noise           239       0       6     11      10           1   
+qadars                   7     789       0      3       1           0   
+qakbot                  34       0     323      8      27          13   
+ramdo                    0       0       0    932       0           0   
+ramnit                   0       0       7      0     211           7   
+ranbyus_v1               0       0       1      5      34         660   
+ranbyus_v2               0       0       0      1      64          59   
+rovnix                   0       0       0      0       0           0   
+shiotob                 11      64       0      0       4           2   
+simda                    0       0       0      0       0           0   
+sisron                   0       0       0      0       0           0   
+suppobox_1               0       0       0      0       0           0   
+suppobox_2               0       0       0      0       0           0   
+suppobox_3               0       0       0      0       0           0   
+symmi                    0       0       0      0       0           0   
+tempedreve              96       0       0      0       1           0   
+tinba                   36       0       3      0      24          45   
+vawtrak_v1               0       0       0      0       0           0   
+vawtrak_v2               0       0       0      0       1           0   
+vawtrak_v3               0       0       0      0       0           0   
+zeus-newgoz              0       0       5      0       0           0   
+legit                    8       4       1      1       1           0   
+
+              ranbyus_v2  rovnix  shiotob  simda  sisron  suppobox_1  \
+alureon                0       0        0      4       0           0   
+banjori                0       0        0      0       0           0   
+bedep                  2       0        1      0       0           0   
+ccleaner               0       0        5      0       0           0   
+chinad                 5       0       76      0       0           0   
+corebot                0       0        0      0       0           0   
+cryptolocker           0       0        0      1       0           0   
+dircrypt               3       0        0      1       0           0   
+dyre                   0       0        0      0       0           0   
+fobber_v1              4       0        0      0       0           0   
+fobber_v2              0       0        0      4       0           0   
+gozi_gpl               0      35        0      0       0           0   
+gozi_luther            0       0        0      0       0           0   
+gozi_nasa              0       0        0      0       0           0   
+gozi_rfc4343           0       3        0      0       0           0   
+kraken_v1              0       0        0      1       0           0   
+kraken_v2              0       0        0     11       0           0   
+locky                 30       0        0     13       0           0   
+matsnu                 0       0        0      0       0           0   
+murofet_v1             0       2        0      0       0           0   
+murofet_v2             0       0        0      0       0           0   
+murofet_v3             0       0        0      0       0           0   
+necurs                65       0        0     20       0           0   
+nymaim                 0      24        0     11       0          15   
+padcrypt               1       1        1      0       0           0   
+pizd                   0       0        0      0       0         227   
+proslikefan            0       0        0     76       0           0   
+pushdo                 0       0        0      0       0           0   
+pykspa                 0       0        0     70       0           0   
+pykspa_noise           0       0        0     57       2           0   
+qadars                 0       0       99      0       0           0   
+qakbot                 1       2        0      2       1           0   
+ramdo                  0       0        0      0       0           0   
+ramnit                 2       0        0      7       0           0   
+ranbyus_v1             1       0        0      0       0           0   
+ranbyus_v2           454       2        0      0       0           0   
+rovnix                 0     825        0      0       0           0   
+shiotob                0       0      695      0       0           0   
+simda                  0       0        0    852       0           0   
+sisron                 0       0        0      0     932           0   
+suppobox_1             0       0        0      0       0         818   
+suppobox_2             0       0        0      0       0           9   
+suppobox_3             0      12        0      0       0           0   
+symmi                  0       0        0      0       0           0   
+tempedreve             0       0        0     17       0           0   
+tinba                  0       0        0      0       0           0   
+vawtrak_v1             0       0        0      0       0           0   
+vawtrak_v2             0       0        0      0       0           0   
+vawtrak_v3             0       0        0      0       0           0   
+zeus-newgoz            0       0        0      0       0           0   
+legit                  0       0        6     44       0           7   
+
+              suppobox_2  suppobox_3  symmi  tempedreve  tinba  vawtrak_v1  \
+alureon                0           0      0         110     36           0   
+banjori                0           0      0           0      0           0   
+bedep                  0           0      0           5    113           0   
+ccleaner               0           0      0           0      0           0   
+chinad                 0           0      0           0      0           0   
+corebot                0           0      4           0      0           0   
+cryptolocker           0           0      0          24    143           0   
+dircrypt               0           0      0          32    135           0   
+dyre                   0           0      0           0      0           0   
+fobber_v1              0           1      0           0      0           0   
+fobber_v2              0           0      0         109     37           0   
+gozi_gpl               0           0      0           0      0           0   
+gozi_luther            0           0      0           0      0           0   
+gozi_nasa              0           0      0           0      2           0   
+gozi_rfc4343           0           0      0           0      3           0   
+kraken_v1              0           0      0           0      1           0   
+kraken_v2              0           0      0          23     41           0   
+locky                  0           0      0          37     81           0   
+matsnu                 0           0      0           0      0           0   
+murofet_v1             0           0      0           0      0           0   
+murofet_v2             0           0      0           0     11           0   
+murofet_v3             0           0      0           0      0           0   
+necurs                 0           0      0          15     68           0   
+nymaim                 2           3      0           0      2           4   
+padcrypt               0           0      0           0      1           0   
+pizd                  20           1      0           0      0           0   
+proslikefan            8           0      0          48     12           0   
+pushdo                 0           0      0           6      1           0   
+pykspa                16           0      0         185     40           0   
+pykspa_noise          19           0      0         146     25           0   
+qadars                 0           0      0           8      3           3   
+qakbot                 0           0      0          73     42           0   
+ramdo                  0           0      0           0      0           0   
+ramnit                 0           0      0          32    173           0   
+ranbyus_v1             0           0      0           0     45           0   
+ranbyus_v2             0           0      0           0      2           0   
+rovnix                 0           1      0           0      0           0   
+shiotob                1           0      0          13     12           0   
+simda                  0           0      0           0      0           0   
+sisron                 0           0      0           0      0           0   
+suppobox_1             4           0      0           0      0           0   
+suppobox_2           902           1      0           0      0           0   
+suppobox_3             0         918      0           0      0           0   
+symmi                  0           0    932           0      0           0   
+tempedreve             4           0      0         482     12           0   
+tinba                  0           0      1          31    529           0   
+vawtrak_v1             0           0      0           0      0         932   
+vawtrak_v2             0           0      0           1      0           0   
+vawtrak_v3             0           0      0           0      0           0   
+zeus-newgoz            0           0      0           0      0           0   
+legit                 41           0      0           0      1           0   
+
+              vawtrak_v2  vawtrak_v3  zeus-newgoz  legit  
+alureon               17          22            0      1  
+banjori                0           0            0      0  
+bedep                  0           0            0      0  
+ccleaner               0           0            0      0  
+chinad                 0           0            0      0  
+corebot                0           0            0      0  
+cryptolocker           0           0            0      0  
+dircrypt               5           8            0      6  
+dyre                   0           0            0      0  
+fobber_v1              0           0            0      0  
+fobber_v2             16          22            0      2  
+gozi_gpl               0           0            0      0  
+gozi_luther            2           4            0      3  
+gozi_nasa              0           1            0     12  
+gozi_rfc4343           0           1            0     11  
+kraken_v1              0           4            0      1  
+kraken_v2              4           9            0      1  
+locky                  0           0            0      0  
+matsnu                 0           0            0     12  
+murofet_v1             0           0            0      0  
+murofet_v2             0           0            0      0  
+murofet_v3             0           0            0      0  
+necurs                 0           0            0      0  
+nymaim                 1           1            0     17  
+padcrypt               0           0            0      0  
+pizd                   0           0            0      0  
+proslikefan            4           6            0      9  
+pushdo                 1          31            0      0  
+pykspa                 5           7            0      7  
+pykspa_noise           3          14            0     11  
+qadars                 0           0            0      0  
+qakbot                 0           1            0      0  
+ramdo                  0           0            0      0  
+ramnit                13          15            0      2  
+ranbyus_v1             0           0            0      0  
+ranbyus_v2             0           0            0      0  
+rovnix                 0           0            0      0  
+shiotob                1           1            0      0  
+simda                  2           2            0     13  
+sisron                 0           0            0      0  
+suppobox_1             0           0            0      0  
+suppobox_2             0           0            0      0  
+suppobox_3             0           0            0      0  
+symmi                  0           0            0      0  
+tempedreve             1           3            0      0  
+tinba                  1           0            0      1  
+vawtrak_v1             0           0            0      0  
+vawtrak_v2           717         184            0     18  
+vawtrak_v3            80         844            0      1  
+zeus-newgoz            0           0          923      0  
+legit                 13         100            0    577  
+True positive: 34879
+
+
